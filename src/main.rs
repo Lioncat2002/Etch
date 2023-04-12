@@ -1,8 +1,8 @@
-use rocket::Rocket;
-use rocket::Build;
 use rocket::get;
 use rocket::launch;
 use rocket::routes;
+use rocket::Build;
+use rocket::Rocket;
 #[get("/bruh")]
 fn index() -> &'static str {
     println!("YOoo");

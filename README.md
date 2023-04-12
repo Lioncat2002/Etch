@@ -1,2 +1,2 @@
 # ETCH
-A CMS for my new portfolio
+An in memory database like Redis. Written in Rust
